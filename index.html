@@ -432,55 +432,96 @@
             </li>
           </ul>
         </div>
-      </div>
-    </div>
-    </footer>
-     <div class="modal-overlay">
-        <div class="modal">
-          <form class="contact-form">
-            <button class="close-btn">
-            <svg class="close-icon">
-              <use href="./images/icons.svg#icon-close-icon" width="100%" height="100%"></use>
-            </svg>
-          </button>
-            <p class="form-header">Leave your contacts and we will call you back</p>
-            <label class="form-label">
-              <span class="label-text">Name</span><br>
-              <div class="input-container">
-                <svg class="input-icon input-icon-name">
-                  <use href="./images/icons.svg#icon-name-input" width="18px" height="24px"></use>
-                </svg>
-              <input class="form-input" type="text" name="name">
-              </div>
+        <div class="container subscribe-container">
+          <p class="subscribe-p">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                name="sub-input"
+                type="email"
+                placeholder="E-mail"
+              />
             </label>
-             <label class="form-label">
-              <span class="label-text">Phone</span><br>
-              <div class="input-container">
-                <svg class="input-icon">
-                  <use href="./images/icons.svg#icon-phone-input"></use>
-                </svg>
-              <input class="form-input" type="tel" name="phone">
-              </div>
-            </label>
-             <label class="form-label">
-              <span class="label-text">Email</span><br>
-              <div class="input-container">
-                <svg class="input-icon">
-                  <use href="./images/icons.svg#icon-email-input"></use>
-                </svg>
-              <input class="form-input" type="email" name="email">
-              </div>
-            </label>
-              <label class="form-label">
-              <span class="label-text">Comment</span><br>
-              <textarea class="comment-section" rows="7" placeholder="Text input"></textarea>
-            </label>
-            <div class="chechbox-area">
-            <input type="checkbox" name="checkbox" value="privacy-policy" id="privacy-policy">
-            <label for="checkbox" class="checkbox-text">I accept the terms and conditions of the <a href="" class="pp-link">Privacy Policy</a></label>
-            </div>
-          <button class="form-btn" type="submit">Send</button>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="subscribe-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe-btn"></use>
+              </svg>
+            </button>
           </form>
         </div>
+      </div>
+    </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <form class="contact-form">
+          <button class="close-btn">
+            <svg class="close-icon">
+              <use
+                href="./images/icons.svg#icon-close-icon"
+                width="100%"
+                height="100%"
+              ></use>
+            </svg>
+          </button>
+          <p class="form-header">
+            Leave your contacts and we will call you back
+          </p>
+          <label class="form-label">
+            <span class="label-text">Name</span><br />
+            <div class="input-container">
+              <svg class="input-icon input-icon-name">
+                <use
+                  href="./images/icons.svg#icon-name-input"
+                  width="18px"
+                  height="24px"
+                ></use>
+              </svg>
+              <input class="form-input" type="text" name="name" />
+            </div>
+          </label>
+          <label class="form-label">
+            <span class="label-text">Phone</span><br />
+            <div class="input-container">
+              <svg class="input-icon">
+                <use href="./images/icons.svg#icon-phone-input"></use>
+              </svg>
+              <input class="form-input" type="tel" name="phone" />
+            </div>
+          </label>
+          <label class="form-label">
+            <span class="label-text">Email</span><br />
+            <div class="input-container">
+              <svg class="input-icon">
+                <use href="./images/icons.svg#icon-email-input"></use>
+              </svg>
+              <input class="form-input" type="email" name="email" />
+            </div>
+          </label>
+          <label class="form-label">
+            <span class="label-text">Comment</span><br />
+            <textarea
+              class="comment-section"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <div class="chechbox-area">
+            <input
+              type="checkbox"
+              name="checkbox"
+              value="privacy-policy"
+              id="privacy-policy"
+            />
+            <label for="checkbox" class="checkbox-text"
+              >I accept the terms and conditions of the
+              <a href="" class="pp-link">Privacy Policy</a></label
+            >
+          </div>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

@@ -587,11 +587,9 @@ img {
     position: relative;
 }
 .form-input-wrapper{
-    margin-bottom: 16px;
-}
-/*.form-input-wrapper{
     margin-bottom: 8px;
-}*/
+}
+
 .input-container{
     position: relative;
 }

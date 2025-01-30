@@ -588,7 +588,7 @@ img {
 }
 
 .form-input-wrapper{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .input-container{
     position: relative;
@@ -603,7 +603,6 @@ img {
 .input-container:focus-within {
   border-color: #6c63ff;
 }
-
 .form-label{
     font-size: 12px; 
     line-height: 1.17; 
@@ -622,36 +621,24 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.name-input{
+.input-name{
     width: 100%;/*??????*/
 }
 .form-input:focus,
 .form-input:hover {
     border-color: #4D5AE5;
 }
-
 .input-icon {
   position: absolute;
+    top: 50%;
   left: 16px;
-  top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   fill: #4d5ae5;
 }
-.input-icon-name{
-   top: 50%; 
-}
-/*.form-input::before{
-    border: 1.25px solid #2e2f42;
-    width: 18px;
-    height: 0px;
-}*/
 .form-input:focus {
   border: 1px solid #4d5ae5;
   box-shadow: 0 0 4px rgba(77, 90, 229, 0.5);
-}
-.form-input-wrapper-comment{
-    margin-bottom: 24px;
 }
 .comment-area {
     width: 100%;
@@ -677,6 +664,9 @@ textarea::placeholder{
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+}
+.form-input-wrapper-checkbox{
+    margin-bottom: 24px;
 }
 .checkbox{
     position: relative;

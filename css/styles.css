@@ -672,12 +672,9 @@ textarea::placeholder{
 }
 .form-input-wrapper-checkbox{
     margin-bottom: 24px;
-    display: flex;
     align-items: center; 
 }
 .checkbox-label{
-    display: flex;
-    align-items: center; 
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
